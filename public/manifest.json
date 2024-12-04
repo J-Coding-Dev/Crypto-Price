@@ -1,0 +1,21 @@
+{
+	"name": "Crypto Prices",
+	"version": "4.0",
+	"manifest_version": 3,
+	"description": "Easily check crypto prices quickly and conveniently with a popup, search, 7 day graph, and useful links.",
+	"homepage_url": "https://github.com/JohnLozier/CryptoPrices",
+	"action": {
+		"default_popup": "index.html"
+	},
+	"icons": {
+		"16": "assets/icons/16.png",
+		"64": "assets/icons/64.png",
+		"128": "assets/icons/128.png"
+	},
+	"permissions": [ "storage" ],
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "{34f9bfcc-5586-4185-ac28-d9d7e4cd9048}"
+		}
+	}
+}
